@@ -25,8 +25,8 @@ food_waste_df.reset_index(drop=True, inplace=True)
 gdp_per_capita_df.reset_index(drop=True, inplace=True)
 
 # Rename the columns
-food_waste_df.columns = ["country", "kg_per_capita"]
-gdp_per_capita_df.columns = ["country", "gdp_per_capita"]
+food_waste_df.columns = ["country", "kg/capita/year"]
+gdp_per_capita_df.columns = ["country", "gdp/capita"]
 
 # Merge the dataframes on the "country" column
 wealth_to_waste = pd.merge(food_waste_df, gdp_per_capita_df, on="country")
