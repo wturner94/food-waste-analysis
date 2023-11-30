@@ -86,6 +86,8 @@ Follow these steps to run the project on your local machine:
 
 6. **running the ```food-waste-analysis.ipynb``` file:**
     - If you have Jupyter Notebook installed, enter ```jupyter notebook``` and open the `.ipynb` file.
-    - If you are using Visual Studio Code, open the `.ipynb` file and run the cells using the run button that appears at the top left of each cell.
+    - If you are using Visual Studio Code, open the `.ipynb` file and select "Install" when asked "Do you want to install the recommended 'Python' extension from Microsoft for the Python Language?"
+    - Attempt to "Run" the first code block by selecting the Run/Play button at the top left of the code block. This will prompt you to "Install/Enable the suggested extensions "Python" + "Jupyter"
+    - Continue to run the cells using the Run/Play button that appears at the top left of each cell.
 
 To deactivate the virtual environment when you're done, simply type `deactivate` in your terminal.
